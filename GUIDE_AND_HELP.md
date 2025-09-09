@@ -57,19 +57,20 @@ Windows defender will probably have an issue with you running raw, barebones
 executables with almost no metadata and no signature. This is not acceptable in
 a development environment. In order to solve this issue, follow these steps:
 
-- Open Windows Defender
-- From the vertical side menu, press the **Virus & threat protection** button
-- Look for the section that says **Virus & threat protection settings**
-    -- Click on the **Manage settings** button
-- Scroll all the way to the bottom where it says **Exclusions**
-    -- Click on **Add or remove exclusions**
-    -- Click **Yes** when it asks to make changes to your device;
-- Click on the **Add an exclusion** button, and then click on the **Folder**
+1. Open Windows Defender
+2. From the vertical side menu, press the **Virus & threat protection** button
+3. Look for the section that says **Virus & threat protection settings**
+    - Click on the **Manage settings** button
+4. Scroll all the way to the bottom where it says **Exclusions**
+    - Click on **Add or remove exclusions**
+    - Click **Yes** when it asks to make changes to your device;
+5. Click on the **Add an exclusion** button, and then click on the **Folder**
 button in the drop-down menu;
-- From here, find the folder where your assembly project and files are located.
+6. From here, find the folder where your assembly project and files are located.
 This is going to be the folder that Windows Defender turns a blind eye to. This
 makes it so you do not get any antivirus warnings from anything that executes from
 that folder and any subfolders within it.
+
 - **CAUTION**: Most malware executed in the folder you select, and all folders within
 it, will have NO PROTECTION FROM YOUR SYSTEM. DO **NOT** place any executables
 or suspicious files into your selected folder! It is *highly recommended* that you
@@ -79,9 +80,10 @@ excluding a folder with Windows Defender, you can instead exclude the executable
 files you make individually by doing the same thing you did for the folder, but
 this time pressing the **File** button from the dropdown and finding your
 desired executable.
-    -- As long as you don't place anything that is downloaded from the internet
-    into your working folder, or that you know for *sure* that what you put in
-    there is not malware, your system will be fine. Always make sure that you
-    are not downloading viruses and malware from the internet, and certainly do
-    not turn off Windows Defender or other antivirus software that you have
-    unless you absolutely need to, such as in this instance (a dev environment).
+
+- As long as you don't place anything that is downloaded from the internet
+into your working folder, or that you know for *sure* that what you put in
+there is not malware, your system will be fine. Always make sure that you
+are not downloading viruses and malware from the internet, and certainly do
+not turn off Windows Defender or other antivirus software that you have
+unless you absolutely need to, such as in this instance (a dev environment).
