@@ -31,3 +31,5 @@ It supports both: - 32-bit MASM + Kip Irvine’s library, and - 64-bit MASM (no 
 - Microsoft Visual C++ and MASM toolchains.
 
 All files from the Kip Irvine library are the sole property of the author, Kip Irvine, and may only be used for educational purposes. The Irvine library files may NOT be sold, licensed, or have their ownership claimed by another party. The rest of the code in this repo is under the MIT license.
+
+### Repo created by L. Brandon Magoni for Johnson & Wales University, Providence, Rhode Island, 2025
