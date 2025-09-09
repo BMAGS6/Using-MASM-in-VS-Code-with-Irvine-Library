@@ -8,7 +8,7 @@ for %%X in ("%~1") do if /I not "%%~xX"==".asm" (
   exit /b 2
 )
 
-REM --- Prefer the (x86) BuildTools path you verified ---
+REM --- Prefer the (x86) BuildTools path ---
 set "VSCMD=%ProgramFiles(x86)%\Microsoft Visual Studio\2022\BuildTools\Common7\Tools\VsDevCmd.bat"
 if not exist "%VSCMD%" set "VSCMD=%ProgramFiles%\Microsoft Visual Studio\2022\BuildTools\Common7\Tools\VsDevCmd.bat"
 if not exist "%VSCMD%" set "VSCMD=%ProgramFiles(x86)%\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat"
