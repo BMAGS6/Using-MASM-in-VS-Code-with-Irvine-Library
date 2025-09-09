@@ -3,6 +3,7 @@
 This repository provides a clean, repeatable way to write, assemble, link,
 and debug MASM programs entirely in Visual Studio Code---no Visual Studio IDE required.
 It supports both: - 32-bit MASM + Kip Irvine’s library, and - 64-bit MASM (no C runtime), using direct WinAPI calls for minimal, modern x64 examples. Students get “one-button build” via VS Code tasks, optional F5 debugging, and a self-contained project layout that works well on lab machines and personal laptops.
+
 ## What’s included
 
 - `build32.bat` — assembles/links 32-bit programs with Irvine32 (x86).
