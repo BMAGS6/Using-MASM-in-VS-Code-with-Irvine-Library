@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build active ASM (MASM 32 + Irvine32)",
+      "type": "shell",
+      "command": "${workspaceFolder}\\build32.bat",
+      "args": ["${file}"],
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "C:\\Windows\\System32\\cmd.exe",
+          "args": ["/d", "/c"]
+        }
+      },
+      "group": "build",
+      "problemMatcher": "$msCompile"
+    },
+        {
+      "label": "Build active ASM (MASM 64)",
+      "type": "shell",
+      "command": "${workspaceFolder}\\build64.bat",
+      "args": ["${file}"],
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "C:\\Windows\\System32\\cmd.exe",
+          "args": ["/d", "/c"]
+        }
+      },
+      "group": "build",
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}
+
