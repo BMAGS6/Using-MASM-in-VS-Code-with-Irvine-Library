@@ -1,4 +1,4 @@
-# MASM in Visual Studio Code - Classroom Starter
+# MASM in Visual Studio Code -- Classroom Starter
 
 This repository provides a clean, repeatable way to write, assemble, link,
 and debug MASM programs entirely in Visual Studio Code---no Visual Studio IDE required.
