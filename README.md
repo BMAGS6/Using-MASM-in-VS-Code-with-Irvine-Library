@@ -19,6 +19,9 @@ It supports both: - 32-bit MASM + Kip Irvine’s library, and - 64-bit MASM (no 
 - MSVC v143 build tools (x86/x64) - Windows 10/11 SDK - VS Code with the C/C++ extension (Microsoft).
 - Kip Irvine’s files
 
+Make sure to download the zip file of the repo by clicking on the green "Code" button,
+click "Download ZIP", extract the file (preferably in C:\), then open that file in VS Code.
+
 ## Troubleshooting
 
 - A1000: cannot open file : SmallWin.inc Ensure all Irvine .inc files are present in lib\Irvine\ and that the 32-bit task adds /I lib\Irvine.
