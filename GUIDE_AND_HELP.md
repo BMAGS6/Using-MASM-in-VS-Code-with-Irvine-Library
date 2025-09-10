@@ -87,3 +87,5 @@ there is not malware, your system will be fine. Always make sure that you
 are not downloading viruses and malware from the internet, and certainly do
 not turn off Windows Defender or other antivirus software that you have
 unless you absolutely need to, such as in this instance (a dev environment).
+
+- Building inside Documents/OneDrive/Desktop can trigger write blocks. Prefer a neutral path like C:\dev\Assemply_Class. If needed, allow ml.exe, ml64.exe, and link.exe under Controlled folder access.
