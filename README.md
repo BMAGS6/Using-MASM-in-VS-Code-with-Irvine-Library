@@ -20,7 +20,9 @@ It supports both: - 32-bit MASM + Kip Irvine’s library, and - 64-bit MASM (no 
 - Kip Irvine’s files
 
 Make sure to download the zip file of the repo by clicking on the green "Code" button,
-click "Download ZIP", extract the file (preferably in C:\), then open that file in VS Code.
+click "Download ZIP", extract the .zip file (preferably in C:\), then open that folder
+in VS Code by opening VS Code, clicking the "File" button at the top left, then click
+"Open Folder", and select the extracted folder.
 
 ## Troubleshooting
 
