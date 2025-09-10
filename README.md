@@ -26,15 +26,16 @@ in VS Code by opening VS Code, clicking the "File" button at the top left, then 
 
 ## Troubleshooting
 
-- A1000: cannot open file : SmallWin.inc Ensure all Irvine .inc files are present in lib\Irvine\ and that the 32-bit task adds /I lib\Irvine.
-- ml not found / dev cmd not set Confirm VsDevCmd.bat exists (often under Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\Tools\). The batch scripts call it automatically with the correct -arch.
-- Windows Defender blocks new EXEs Consider a per-project exclusion for the bin\ folder (Windows Security -> Virus & threat protection -> Manage settings -> Exclusions). Keep protections enabled elsewhere. See the `GUIDE_AND_HELP.md` file for more info.
-- Assembling the wrong file VS Code builds the active editor file. Make sure the .asm tab is selected before building.
+- **A1000: cannot open file : SmallWin.inc**: Ensure all Irvine .inc files are present in lib\Irvine\ and that the 32-bit task adds /I lib\Irvine.
+- **ml not found / dev cmd not set**: Confirm VsDevCmd.bat exists (often under Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\Tools\). The batch scripts call it automatically with the correct -arch.
+- **Windows Defender blocks new EXEs**: Consider a per-project exclusion for the bin\ folder (Windows Security -> Virus & threat protection -> Manage settings -> Exclusions). Keep protections enabled elsewhere. See the `GUIDE_AND_HELP.md` file for more info.
+- **Assembling the wrong file**: VS Code builds the active editor file. Make sure the .asm tab is selected before building.
 
 ### Acknowledgments
 
 - Kip Irvine, for the Irvine32 package used in many assembly courses.
 - Microsoft Visual C++ and MASM toolchains.
+- ChatGPT for most of the info and for the .json files
 
 All files from the Kip Irvine library are the sole property of the author, Kip Irvine, and may only be used for educational purposes. The Irvine library files may NOT be sold, licensed, or have their ownership claimed by another party. The rest of the code in this repo is under the MIT license.
 
