@@ -28,24 +28,24 @@
 ## Building and running
 
 - To build and assemble .asm files
-    -- Open the desired file in VS Code
-    -- Press CTRL+SHIFT+B
-    -- From the drop down menu, select **Build Active ASM (MASM32 + Irvine32)**
-    -- The terminal should open on the bottom of the screen and show the status of the build.
+  - Open the desired file in VS Code
+  - Press CTRL+SHIFT+B
+  - From the drop down menu, select **Build Active ASM (MASM32 + Irvine32)**
+  - The terminal should open on the bottom of the screen and show the status of the build.
 
 - To run the newly-created .exe file:
-    -- From the terminal:
-        --- If the terminal is not open, click the three dots (...) at the top
+  - From the terminal:
+    - If the terminal is not open, click the three dots (...) at the top
         of the screen, in VS  Code, near where it says "Go"
-        --- Press "Terminal" -> "New Terminal
-        --- You should see a command prompt that says something like
-        "PS C:\Assembly_Class>". The "Assembly_Class" name is custom and
-        you may have a different directory name here. What matters is that your
-        terminal is in the same folder that your VS Code material is in
-        --- Enter into the command prompt "./" and the desired name of the exe
-            ---- For example, if the file you want to run is named "my_file.exe",
+    - Press "Terminal" -> "New Terminal
+      - You should see a command prompt that says something like
+      "PS C:\Assembly_Class>". The "Assembly_Class" name is custom and
+      you may have a different directory name here. What matters is that your
+      terminal is in the same folder that your VS Code material is in
+        - Enter into the command prompt "./" and the desired name of the exe
+          - For example, if the file you want to run is named "my_file.exe",
             you would enter `./my_file.exe` into the command prompt
-    -- Running by double-clicking the executable in, say, the file explorer
+    - Running by double-clicking the executable in, say, the file explorer
     does run them, but this is not advised, as the output terminal that spawns
     will close immediately and will not stay open unless it is explicitly added
     in the assembly program that it should. Stick to running it from an
